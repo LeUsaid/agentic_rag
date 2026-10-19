@@ -28,6 +28,6 @@ Upload a PDF/TXT/MD, click **Process document**, then chat. The FAISS index and 
 route -> greeting | off_topic | contextualize -> retrieve -> grade_documents -> generate
                                               └─ no relevant docs -> rewrite_query -> retrieve (max 2 retries) -> not_found
 ```
-![LangGraph Nodes Flow](agentic_rag/graph.png)
+![LangGraph Nodes Flow](graph.png)
 
 Follow-up questions use recent chat history. Tune models, chunking, top-k, retries, and history length in `config.py`.
