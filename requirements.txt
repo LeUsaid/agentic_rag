@@ -6,5 +6,4 @@ langchain-text-splitters
 langgraph
 langchain-google-genai
 faiss-cpu
-# Only needed for PDF files (pending your approval); .txt works without it
 pypdf
